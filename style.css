@@ -1,0 +1,43 @@
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    overflow: hidden;
+}
+.main{
+    position: relative;
+}
+button {
+    background-color: aquamarine;
+    padding:5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    color:#444;
+}
+.content{
+    
+}
+.content img{
+    width: 1200px;
+    height: 100%;
+    object-fit: cover;
+    animation: image 1s infinite ;
+    display: none;
+}
+@keyframes image {
+    form{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
